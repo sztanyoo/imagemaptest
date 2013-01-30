@@ -1,0 +1,14 @@
+<html>
+
+<head>
+<script type="text/JavaScript" src="jquery-1.9.0.min.js"></script>
+</head>
+
+<body>
+<img src ="image1.jpg" width="200" height="100" alt="Map" usemap="#circlemap" id="circlemap" >
+
+<map name="circlemap">
+  <area shape="circle" coords="73,52,40" href="retek" alt="asdf" title="asdf" onmouseover="$('#circlemap').attr('src', 'image2.jpg');" onmouseout="$('#circlemap').attr('src', 'image1.jpg');" />
+</map> 
+
+</body>
